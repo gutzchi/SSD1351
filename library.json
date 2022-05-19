@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "name": "Gustavo villaescusa",
+        "url": ""
+    },
+    "build": {
+        "builder": "MbedLibBuilder"
+    },
+    "description": "This library drives the SSD1351, specifically for the Adafruit RGB OLED with SPI.\n For now, it can only print things in the display.",
+    "examples": [
+    ],
+    "frameworks": "mbed",
+    "keywords": [
+        "oled",
+        "adafruit",
+        "ssd1351"
+    ],
+    "name": "SSD1351",
+    "platforms": "*",
+    "repository": {
+        "type": "hg",
+        "url": "TBS"
+    },
+    "version": "0.1"
+}
