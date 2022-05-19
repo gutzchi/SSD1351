@@ -40,12 +40,6 @@ typedef enum {
  Pink            = 0xF81F
 } Color_t;    
 
-/* Union definition for pixel transfer*/
-typedef union{
-    uint16_t i;
-    char c[2];
-} Pixel_t;
-
 // SSD1351 Commands
 #define SSD1351_CMD_SETCOLUMN 		0x15
 #define SSD1351_CMD_SETROW    		0x75
